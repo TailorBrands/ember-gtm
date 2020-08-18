@@ -1,8 +1,7 @@
 ember-gtm
 ==============================================================================
 
-[Short description of the addon.]
-
+Ember addon for integrating Google Tag Manager
 
 Compatibility
 ------------------------------------------------------------------------------
@@ -23,7 +22,27 @@ ember install ember-gtm
 Usage
 ------------------------------------------------------------------------------
 
-[Longer description of how to use the addon in apps.]
+All that's required is setting the GTM key in your `config/environment.js` file.
+```js
+// config/environment.js
+
+ENV['ember-gtm'] = {
+  appId: '[YOUR_APP_ID]'
+};
+```
+
+Then you can use the `gtm` service freely.
+```js
+@service gtm;
+
+@action
+someAction() {
+  const data = {
+    something: "for the dataLayer"
+  };
+  this.gtm.trackGTM(data);
+}
+```
 
 
 Contributing
