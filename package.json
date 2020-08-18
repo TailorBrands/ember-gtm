@@ -1,9 +1,11 @@
 {
   "name": "ember-gtm",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "1.0.0",
+  "description": "Ember addon for integrating Google Tag Manager",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "gtm",
+    "ember"
   ],
   "repository": "",
   "license": "MIT",
