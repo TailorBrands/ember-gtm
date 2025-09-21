@@ -59,7 +59,13 @@
   },
   "resolutions": {
     "loader-utils": "^2.0.4",
-    "ember-cli-test-loader": "^3.1.0"
+    "ember-cli-test-loader": "^3.1.0",
+    "async": "^2.6.4",
+    "ansi-regex": "^5.0.1",
+    "json5": "^2.2.2",
+    "semver": "^7.5.2",
+    "lodash": "^4.17.21",
+    "braces": "^3.0.3"
   },
   "engines": {
     "node": "10.* || >= 12"
