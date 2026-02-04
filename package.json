@@ -75,5 +75,8 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
+  },
+  "overrides": {
+    "lodash.template": "npm:lodash@^4.17.21"
   }
 }
