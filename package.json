@@ -65,7 +65,9 @@
     "json5": "^2.2.2",
     "semver": "^7.5.2",
     "lodash": "^4.17.21",
-    "braces": "^3.0.3"
+    "lodash.template": "npm:lodash@^4.17.21",
+    "braces": "^3.0.3",
+    "qs": "^6.13.0"
   },
   "engines": {
     "node": "10.* || >= 12"
