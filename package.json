@@ -1,5 +1,5 @@
 {
-  "name": "ember-gtm",
+  "name": "@tailorbrands/ember-gtm",
   "version": "2.0.0",
   "description": "Ember addon for integrating Google Tag Manager",
   "keywords": [
@@ -7,9 +7,12 @@
     "gtm",
     "ember"
   ],
-  "repository": "",
+  "repository": "https://github.com/TailorBrands/ember-gtm",
   "license": "MIT",
-  "author": "",
+  "author": "TailorBrands",
+  "publishConfig": {
+    "access": "public"
+  },
   "directories": {
     "doc": "doc",
     "test": "tests"
