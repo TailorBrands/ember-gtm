@@ -1,10 +1,10 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-gtm',
+  name: require('./package').name,
 
   contentFor: function(type, config) {
-    const addonConfig = config['ember-gtm'];
+    const addonConfig = config['@tailorbrands/ember-gtm'];
     const appId = addonConfig ? addonConfig.appId : null;
     if (type === 'head' && appId) {
       return `<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
