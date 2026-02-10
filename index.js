@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  name: require('./package').name,
+  name: 'ember-gtm',
 
   contentFor: function(type, config) {
     const addonConfig = config['ember-gtm'];
