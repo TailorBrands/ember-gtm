@@ -1,1 +1,1 @@
-export { default } from 'ember-gtm/services/gtm';
+export { default } from '@tailorbrands/ember-gtm/services/gtm';
