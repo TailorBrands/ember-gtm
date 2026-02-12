@@ -70,7 +70,8 @@
     "lodash": "^4.17.21",
     "lodash.template": "npm:lodash@^4.17.21",
     "braces": "^3.0.3",
-    "qs": "^6.13.0"
+    "qs": "^6.13.0",
+    "@babel/runtime": "^7.26.10"
   },
   "engines": {
     "node": ">= 18"
