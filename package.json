@@ -76,7 +76,11 @@
     "minimatch": "^3.1.5",
     "websocket-driver": "0.7.5",
     "ws": "8.21.0",
-    "morgan": "1.11.0"
+    "morgan": "1.11.0",
+    "fast-uri": ">=3.1.4",
+    "linkify-it": "5.0.2",
+    "shell-quote": ">=1.9.0",
+    "engine.io": ">=6.6.7"
   },
   "engines": {
     "node": ">= 18"
