@@ -1,5 +1,14 @@
 # Changelog
 
+## [3.0.2](https://github.com/TailorBrands/ember-gtm/compare/v3.0.1...v3.0.2) (2026-07-26)
+
+
+### Bug Fixes
+
+* **deps:** force websocket-driver/ws/morgan to patched versions via yarn resolutions ([016e029](https://github.com/TailorBrands/ember-gtm/commit/016e029eab52995d9dcc4bc3ee21dd62f3366434))
+* **deps:** patch npm CVEs via yarn resolutions ([9ee32fb](https://github.com/TailorBrands/ember-gtm/commit/9ee32fb7faafed73f91bc8d3142dbdc1c1c0b4d0))
+* **deps:** pin minimatch to 3.1.5 to unbreak dummy app test build ([64eb56c](https://github.com/TailorBrands/ember-gtm/commit/64eb56c44fce3670147b579ad2dedbe801f378e5))
+
 ## [3.0.1](https://github.com/TailorBrands/ember-gtm/compare/v3.0.0...v3.0.1) (2026-02-12)
 
 
